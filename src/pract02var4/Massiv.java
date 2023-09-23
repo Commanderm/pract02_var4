@@ -1,6 +1,5 @@
 package pract02var4;
 
-import java.util.Arrays;
 
 public class Massiv {
     private int[] array;
@@ -8,7 +7,6 @@ public class Massiv {
     public Massiv(){
         int x = (int) (Math.random() * 30);
         array = new int[x];
-        Math.random();
         for (int i = 0; i < x; i++) {
             array[i] = (int) (Math.random() * 100);
         }
